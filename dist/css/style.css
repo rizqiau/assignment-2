@@ -224,7 +224,6 @@ header .hero h1 {
 .contact .box-contact form table tr td input {
   padding: 15px 60px 15px 20px;
   margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .contact .box-contact form table tr td textarea {
@@ -232,14 +231,14 @@ header .hero h1 {
   padding: 15px 200px 150px 20px;
 }
 
-/* footer */
-footer {
-  background-color: #f1faee;
+.contact .box-contact form table tr td button {
+  padding: 5px;
+  border-radius: 5px;
 }
 
-footer p {
-  text-align: center;
-  padding: 20px 0 20px 0;
+.contact .box-contact form table tr td button:hover {
+  background-color: greenyellow;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1200px) {
